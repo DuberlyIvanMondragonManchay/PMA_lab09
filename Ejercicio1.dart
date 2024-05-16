@@ -28,20 +28,20 @@ class MyHomePage extends StatelessWidget {
         children: [
           _buildListItem(
             category: 'Alimentos',
-            image: 'https://w7.pngwing.com/pngs/14/397/png-transparent-apple-fruit-green-apple-red-apple.png',
-            fontFamily: '', // Fuente para alimentos
+            image: 'assets/images/apple.png',
+            fontFamily: 'Jacquard', // Fuente para alimentos
             itemName: 'Manzana',
           ),
           _buildListItem(
             category: 'Animales',
-            image: 'https://e7.pngegg.com/pngimages/537/682/png-clipart-dog-grooming-puppy-cat-pet-white-dog-adult-yellow-labrador-retriever-white-animals-thumbnail.png',
+            image: 'assets/images/naru.png',
             fontFamily: 'Lato', // Fuente para animales
-            itemName: 'Perro',
+            itemName: 'Naruto',
           ),
           _buildListItem(
             category: 'Lugares',
-            image: 'https://w7.pngwing.com/pngs/655/800/png-transparent-eiffel-tower-paris-light-fixture-world-landmark-thumbnail.png', 
-            fontFamily: 'Ubuntu', // Fuente para lugares
+            image: 'assets/images/paris.png', 
+            fontFamily: 'fuente2', // Fuente para lugares
             itemName: 'París',
           ),
         ],
